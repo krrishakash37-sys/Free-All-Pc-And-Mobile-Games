@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Gamer Store - Game Kharido Ya Free Download Karo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { background: #0a0a0a; color: #fff; font-family: 'Arial', sans-serif; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1920x1080/1a1a2e/4a4e74?text=Gaming+Hero') center/cover; height: 100vh; display: flex; align-items: center; text-align: center; }
+        .btn-buy { background: #ff4500; border: none; padding: 15px 30px; font-size: 1.2em; border-radius: 50px; }
+        .btn-free { background: #00ff00; color: #000; border: none; padding: 15px 30px; font-size: 1.2em; border-radius: 50px; }
+        .game-card { background: #1a1a2e; border: none; transition: transform 0.3s; }
+        .game-card:hover { transform: scale(1.05); }
+        footer { background: #000; padding: 20px 0; }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="fas fa-gamepad"></i> Super Gamer 2.1</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#game">Game</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-4">WELCOME TO GAMES STORE</h1>
+            <p class="lead mb-4">ALL GAMES ARE JUST ₹299 AND FREE GAMES TO AVALAIBLE ON THIS SITE! </p>
+            <div>
+                <a href="#buy" class="btn btn-buy me-3"><i class="fas fa-shopping-cart"></i> Buy ₹299</a>
+                <a href="#free" class="btn btn-free"><i class="fas fa-download"></i> Free games Download</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Section -->
+    <section id="game" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Hamara Top Game</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card game-card text-center">
+                        <img src="https://via.placeholder.com/800x400/16213e/ffffff?text=Your+Game+Screenshot" class="card-img-top" alt="Game Screenshot">
+                        <div class="card-body">
+                            <h3 class="card-title">Super Road Crossed 3D</h3>
+                            <p class="card-text">Indian Bike Driving jaisa action-packed game. Full features ke saath PC/Mobile pe khelo.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success"></i> High Graphics</li>
+                                <li><i class="fas fa-check text-success"></i> Multiplayer Mode</li>
+                                <li><i class="fas fa-check text-success"></i> Free Updates</li>
+                            </ul>
+                            <div class="mt-4">
+                                <a href="#" class="btn btn-buy" id="buy">Abhi Kharido</a>
+                                <a href="#" class="btn btn-success ms-2" id="free">Free Version Download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Karo</h2>
+            <form class="row g-3 justify-content-center">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Naam">
+                </div>
+                <div class="col-md-6">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="col-12">
+                    <textarea class="form-control" rows="5" placeholder="Message (Game query?)"></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>&copy; Super Games Store| Instagram: @pc_and_mobile_games_store | YouTube: Super Gamer 2.1</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Simple form submit alert
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Message bhej diya! Jald reply karunga.');
+        });
+        // Buy/Free buttons
+        document.getElementById('buy').addEventListener('click', function() { alert('Payment link: razopay.com/demo (real me integrate karo)'); });
+        document.getElementById('free').addEventListener('click', function() { alert('Free demo download link: "C:\Users\hp\OneDrive\Desktop\Free Fire MAX x JUJUTSU KAISEN.lnk"'); });
+    </script>
+</body>
+</html>
+    <!DOCTYPE html>
+<html lang="hi">
+<head>
+    <!-- Previous head content same, adding these extras -->
+    <style>
+        /* Additional styles for new features */
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+            animation: whatsapp-bounce 2s infinite;
+        }
+        @keyframes whatsapp-bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+        .video-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .screenshot-gallery img {
+            transition: transform 0.3s;
+            border-radius: 15px;
+        }
+        .screenshot-gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <!-- Previous navbar, hero, game sections same until Contact -->
+
+    <!-- NEW: Video Section (Add after Game Section #game) -->
+    <section id="video" class="py-5 video-section">
+        <div class="container">
+            <h2 class="text-center mb-5 display-4 fw-bold text-white">📹 Gameplay Dekho</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="ratio ratio-16x9 rounded-4 shadow-lg overflow-hidden">
+                        <!-- Replace with YOUR YouTube video ID -->
+                        <iframe src="https://youtube.com/shorts/efqzBMredQ0?si=Q7iafVPde2O6QSm8" 
+                                title="Super Road Crossed 3D Gameplay" 
+                                allowfullscreen 
+                                class="border-0 w-100 h-100">
+                        </iframe>
+                    </div>
+                    <div class="text-center mt-4">
+                        <a href="www.youtube.com/@Supergamer015" class="btn btn-danger btn-lg">
+                            <i class="fab fa-youtube me-2"></i>More Videos
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- UPDATED Game Card with Screenshot Gallery -->
+    <!-- Replace the previous game card section with this enhanced version -->
+    <section id="game" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 display-4 fw-bold">🎮 Hamara Top Game</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10">
+                    <div class="card game-card text-center mx-auto">
+                        <img src="https://images.unsplash.com/photo-1570549717069-33bed0ac95a7?w=900&h=500&fit=crop" 
+                             class="card-img-top rounded-top" alt="Super Road Crossed 3D Main Menu" style="height: 400px; object-fit: cover;">
+                        <div class="card-body p-5">
+                            <!-- Screenshot Gallery -->
+                            <h5 class="mb-4"><i class="fas fa-images me-2 text-primary"></i>Screenshots</h5>
+                            <div class="screenshot-gallery row g-2 mb-4 justify-content-center">
+                                <div class="col-4">
+                                    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=300&h=200&fit=crop" alt="Gameplay 1" class="w-100 shadow">
+                                </div>
+                                <div class="col-4">
+                                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=300&h=200&fit=crop" alt="Gameplay 2" class="w-100 shadow">
+                                </div>
+                                <div class="col-4">
+                                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=300&h=200&fit=crop" alt="Multiplayer" class="w-100 shadow">
+                                </div>
+                            </div>
+
+                            <h3 class="card-title display-5 fw-bold mb-4">Super Road Crossed 3D</h3>
+                            <!-- Rest remains same -->
+                            <p class="card-text lead mb-4">Real Indian roads, 50+ bikes, multiplayer battles!</p>
+                            <!-- Features list same -->
+                            <div class="d-flex flex-column flex-md-row gap-3 justify-content-center">
+                                <a href="#" class="btn btn-buy btn-lg buy-btn" data-bs-toggle="modal" data-bs-target="#paymentModal">
+                                    <i class="fas fa-shopping-cart me-2"></i>Abhi Kharido ₹299
+                                </a>
+                                <a href="https://drive.google.com/uc?id=YOUR_DEMO_FILE_ID&export=download" class="btn btn-success btn-lg free-demo-btn">
+                                    <i class="fas fa-download me-2"></i>Free Demo (50MB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Floating Button (Add before closing body tag) -->
+    <a href="https://wa.me/919876543210?text=Hi%20Super%20Gamer!%20Super%20Road%20Crossed%203D%20ke%20baare%20me%20puchna%20tha..." 
+       class="whatsapp-float" target="_blank" title="WhatsApp pe baat karo">
+        <i class="fab fa-whatsapp my-auto"></i>
+    </a>
+
+    <!-- Rest of contact, footer, scripts same -->
+</body>
+</html>3
